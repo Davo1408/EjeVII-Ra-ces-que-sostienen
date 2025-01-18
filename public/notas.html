@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíces que sostienen</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header id="statement-section">
+        <div class="content">
+            <h1>Raíces que sostienen</h1>
+        </div>
+        <div id="team-section">
+            <h2>Equipo de Trabajo</h2>
+            <ul>
+                <li>Ana Saray Garcia Cardoso</li>
+                <li>Abril Estefani Torres Ovando</li>
+                <li>Natahel Ramírez Treviño</li>
+                <li>David Eduardo Niño Torreblanca</li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="additional-text">
+        <div class="content">
+            <h3>
+                Statement
+            </h3>
+            <p>
+                La frase que detona esta obra es: “Uno de los mayores logros de la educación en los últimos años fue llenar las universidades de hijos de obreros”. Si bien existen las universidades públicas, también nos encontramos dentro de una realidad histórica en la que se ha limitado el acceso a la educación a ciertos grupos de personas. A partir de aquí nacen cuestionamientos sobre cuántos de nosotros somos hijos de obreros en las universidades, buscamos encontrarnos a nosotros mismos como el producto de los modelos sociales y reflexionar sobre lo que implica que estemos aquí. Esto, mediante la recaudación de los datos de los alumnos sobre cómo se financian nuestras necesidades educativas y personales para poder estudiar en esta universidad.
+            </p>
+            <p>
+                Así, intentamos destacar esta nueva realidad de movilidad y apoyo económico en la que convergen distintas generaciones.
+                El proyecto es una página web, donde se podrá hacer clic en diferentes nodos, lo que abrirá un archivo multimedia en el que podremos escuchar entrevistas, consultar las estadísticas recaudadas o reproducir audios grabados sobre los oficios de las personas que apoyan económicamente a los alumnos.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contenedor interactivo de notas y fotos -->
+    <div id="collage-container"></div>
+
+    <!-- Carrusel de fotos -->
+    <section id="photo-carousel">
+        <div class="carousel">
+            <div class="carousel-item" data-audio="audios/zulimneta.mp3">
+                <img src="imagenes/zulim.jpeg" alt="Imagen 1">
+                <button class="audio-btn">▶</button>
+            </div>
+            <div class="carousel-item next" data-audio="audios/hamlet.mp3">
+                <img src="imagenes/Hamlet imágen.jpg" alt="Imagen 2">
+                <button class="audio-btn">▶</button>
+            </div>
+            <div class="carousel-item previous" data-audio="audios/Rebecaa.mp3">
+                <img src="imagenes/Rebeca.jpeg" alt="Imagen 3">
+                <button class="audio-btn">▶</button>
+            </div>
+            <div class="carousel-item" data-audio="audios/sol.mp3">
+                <img src="imagenes/Sol.jpeg" alt="Imagen 4">
+                <button class="audio-btn">▶</button>
+            </div>
+            <div class="carousel-item" data-audio="audios/Kevin.mp3">
+                <img src="imagenes/Kevin.jpeg" alt="Imagen 5">
+                <button class="audio-btn">▶</button>
+            </div>
+        </div>
+            <!-- Botones de navegación -->
+            <button class="carousel-btn prev" aria-label="Foto anterior">‹</button>
+            <button class="carousel-btn next" aria-label="Foto siguiente">›</button>
+        </div>
+    </section>
+
+    <script src="collage.js"></script>
+</body>
+
+</html>
