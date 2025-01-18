@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Ruta principal que sirve el archivo HTML
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'notas.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // Ruta para gestionar los datos del collage (si necesitas más funcionalidades)
